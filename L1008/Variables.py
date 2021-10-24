@@ -1,8 +1,9 @@
 import math
 
+
 def variable_declaration():
     print("*********Declaring Variables*********")
-    var = math.ceil(5/2)
+    var = math.ceil(5 / 2)
     print(var)
     print("*********Declaring Variables*********\n")
 
