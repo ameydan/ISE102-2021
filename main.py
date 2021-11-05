@@ -5,6 +5,10 @@ from L1015 import Loops as Week02
 from L1021 import Exercises as Week02e
 from L1022 import Strings as Week03a
 from L1022 import Functions as Week03b
+from L1104 import Homework01 as Week03HW
+from L1104 import Exercises as Week03e
+from L1105 import Lists as Week04
+
 
 def week01_examples():
     Week01a.variable_declaration()
@@ -42,9 +46,26 @@ def week03_examples():
     Week03b.named_param_and_scoping()
     Week03b.find_nth_substr()
 
+def week03_exercises():
+    Week03HW.question01()
+    Week03HW.question02()
+    Week03e.exercise01()
+    Week03e.exercise02()
+
+def week04_exercises():
+    #Week04.list_creation()
+    #Week04.indexing_and_slicing()
+    #Week04.list_operators()
+    #Week04.list_methods()
+    #Week04.tuples()
+    #Week04.exceptions()
+    Week04.references()
+
 if __name__ == "__main__":
     #week01_examples()
     #week01_exercises()
     #week02_examples()
     #week02_exercises()
-    week03_examples()
+    #week03_examples()
+    #week03_exercises()
+    week04_exercises()
