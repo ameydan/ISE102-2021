@@ -8,6 +8,7 @@ from L1022 import Functions as Week03b
 from L1104 import Homework01 as Week03HW
 from L1104 import Exercises as Week03e
 from L1105 import Lists as Week04
+from L1111 import Exercises as Week04e
 
 
 def week01_examples():
@@ -52,14 +53,21 @@ def week03_exercises():
     Week03e.exercise01()
     Week03e.exercise02()
 
-def week04_exercises():
-    #Week04.list_creation()
-    #Week04.indexing_and_slicing()
-    #Week04.list_operators()
-    #Week04.list_methods()
-    #Week04.tuples()
-    #Week04.exceptions()
+def week04_examples():
+    Week04.list_creation()
+    Week04.indexing_and_slicing()
+    Week04.list_operators()
+    Week04.list_methods()
+    Week04.tuples()
+    Week04.exceptions()
     Week04.references()
+
+def week04_exercises():
+    #Week04e.test_gcd()
+    #Week04e.test_stdev()
+    #Week04e.test_dot_product()
+    #Week04e.test_read_matrix()
+    Week04e.test_print_transpose()
 
 if __name__ == "__main__":
     #week01_examples()
@@ -68,4 +76,5 @@ if __name__ == "__main__":
     #week02_exercises()
     #week03_examples()
     #week03_exercises()
+    #week04_examples()
     week04_exercises()
