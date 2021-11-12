@@ -1,3 +1,5 @@
+import copy
+
 def list_creation():
     print("********* List Creation *********")
     a_list = [1, 2, 3, 4, 5]
@@ -135,6 +137,19 @@ def references():
     list_swap(a_list, d_list)
 
     print(a_list)
+
+    a_list = [1, 2, [3, 4, 5]]
+    #b_list = a_list.copy()
+    b_list = copy.deepcopy(a_list)
+
+    b_list[0] = 100
+    b_list[2][0] = 100
+    print(a_list)
+    print(b_list)
+
+    #matrix = 3*[3*[0]].copy()
+    #matrix[0][0]=1
+    #print(matrix)
     print("********* List references *********\n")
 
 

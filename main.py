@@ -9,7 +9,8 @@ from L1104 import Homework01 as Week03HW
 from L1104 import Exercises as Week03e
 from L1105 import Lists as Week04
 from L1111 import Exercises as Week04e
-
+from L1112 import Dictionaries as Week05
+from L1112 import Mastermind as Week05mm
 
 def week01_examples():
     Week01a.variable_declaration()
@@ -63,11 +64,16 @@ def week04_examples():
     Week04.references()
 
 def week04_exercises():
-    #Week04e.test_gcd()
-    #Week04e.test_stdev()
-    #Week04e.test_dot_product()
-    #Week04e.test_read_matrix()
+    Week04e.test_gcd()
+    Week04e.test_stdev()
+    Week04e.test_dot_product()
+    Week04e.test_read_matrix()
     Week04e.test_print_transpose()
+
+def week05_examples():
+    Week05.dict_creation()
+    Week05.dict_iteration()
+    Week05mm.mastermind_game()
 
 if __name__ == "__main__":
     #week01_examples()
@@ -77,4 +83,5 @@ if __name__ == "__main__":
     #week03_examples()
     #week03_exercises()
     #week04_examples()
-    week04_exercises()
+    #week04_exercises()
+    week05_examples()

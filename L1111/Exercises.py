@@ -86,7 +86,7 @@ def test_stdev():
 def test_dot_product():
     print("********* Vector dot product Exercise *********")
     dot_product()
-    print("********* Vector dot product Exercise *********"\n)
+    print("********* Vector dot product Exercise *********\n")
 
 def test_read_matrix():
     print("********* Read matrix Exercise *********")
